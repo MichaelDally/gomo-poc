@@ -1,0 +1,38 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Futura', Montserrat;
+  color: #fff;
+}
+
+h1{
+	color: #ff007b;
+}
+
+.card{
+	background: #ff007b;
+	transition: all 1s;
+}
+
+.card:hover{
+	transform: scale(1.1);
+}
+
+.section-b{
+	padding: 20px 0;
+	background-color: white;
+}
+
+a.custom-card,
+a.custom-card:hover {
+  color: inherit;
+}
+
+.btn{
+  border-color: white;
+  border-radius: 300px;
+  background:#ff007b;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+ }
